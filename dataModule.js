@@ -1,6 +1,6 @@
-var dataModule = (function(){
+let dataModule = (function(){
 
-    var appData = {
+    let appData = {
         indicators: {
             testStarted: false, testEnded: false, totalTestTime: 0, timeLeft: 0
         },

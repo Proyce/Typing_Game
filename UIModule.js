@@ -1,7 +1,7 @@
-var UIModule = (function(){
+let UIModule = (function(){
     
     //classes used to select HTML elements
-    var DOMElements = {
+    let DOMElements = {
         //indicators - test control
         timeLeft, //HTML element displaying time left
         //test results

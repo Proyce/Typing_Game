@@ -1,5 +1,5 @@
-var eventsModule = (function(dModule, uModule, cModule, wModule){
-    var addEventListeners = function(){
+let eventsModule = (function(dModule, uModule, cModule, wModule){
+    let addEventListeners = function(){
 
         //character typing event listener
 
