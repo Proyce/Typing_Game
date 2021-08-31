@@ -11,6 +11,10 @@ let eventsModule = (function(dModule, uModule, cModule, wModule){
     return {
         //init function, initializes the test before start
         init: function(duration, textNumber){
+
+            //fill the list of test words: data Module
+
+            dModule.fillListOfTestWords(textNumber);
             addEventListeners();
         }
     };

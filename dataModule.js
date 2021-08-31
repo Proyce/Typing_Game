@@ -20,6 +20,7 @@ let dataModule = (function(){
 //      characters: {correct: [], user: [], totalCorrect: 0, totalTest: 0 }
 //    }
 
+
     var word = function(index){};
     
     //update method
@@ -56,7 +57,15 @@ let dataModule = (function(){
 
     //test words
         
-        fillListOfTestWords(textNumber){},// fills words.testWords
+        // fills words.testWords
+        fillListOfTestWords(textNumber, words){
+            let result = words.split(" ");
+
+            if(textNumber == 0) {
+
+            }
+            appData.words.testWords = result;
+        },
 
         getListofTestWords(){},// get list of test words: words.testWords
 
